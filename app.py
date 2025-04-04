@@ -1,4 +1,5 @@
 import streamlit as st
+!pip install google
 import google.generativeai as genai
 from PIL import Image
 import re
