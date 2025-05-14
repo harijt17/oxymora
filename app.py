@@ -48,7 +48,7 @@ def estimate_oxygen_production(leaf_area_m2, photosynthesis_rate=10, sunlight_ho
 
 # Streamlit UI
 st.title("🌿 OXYMORA")
-st.write("Upload a plant image to get the plant description and estimated oxygen productionn per day.")
+st.write("Upload a plant image to get the plant description and estimated oxygen production per day.")
 
 uploaded_file = st.file_uploader("Choose a plant image", type=["jpg", "jpeg", "png", "webp"])
 
