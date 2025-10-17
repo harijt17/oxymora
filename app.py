@@ -10,7 +10,7 @@ genai.configure(api_key="AIzaSyD2WsIaxWulRTGW3lgZKIKevyG_BdCzmDI")  # Replace wi
 
 def extract_plant_features(image):
     """Analyze plant image using Gemini API."""
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     response = model.generate_content([
         image,
         "Analyze this plant image and extract features like leaf area (in square centimeters as an approximate integer range), size, and health status. Ensure the leaf area is provided as an approximate integer range (e.g., 200-300 cm²)."
