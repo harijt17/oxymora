@@ -6,7 +6,7 @@ import random
 import io
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyAj9F-VaYvvnT0Y_pddOgJA4cCOLl1FEZs")  # Replace with your actual API key
+genai.configure(api_key="AIzaSyD2WsIaxWulRTGW3lgZKIKevyG_BdCzmDI")  # Replace with your actual API key
 
 def extract_plant_features(image):
     """Analyze plant image using Gemini API."""
